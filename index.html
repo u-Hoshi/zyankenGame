@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+
+        <p>自分の手</p>
+        <form>
+        <select id="myhand">
+            <option value="0">グー</option>
+            <option value="1">チョキ</option>
+            <option value="2">パー</option>
+        </select>
+        </form>
+        <input type="submit" value="決定" onclick="gamestart()">
+    </div>
+    <p id="cphand"></p>
+    <p id="log"></p>
+    <script src="./index.js"></script>
+</body>
+</html>
